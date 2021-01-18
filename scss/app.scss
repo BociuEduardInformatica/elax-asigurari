@@ -1,0 +1,13 @@
+@import './variables.scss';
+@import './header';
+@import './assurances';
+@import './banner';
+@import './about';
+
+body {
+  background: $main-color;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,28 @@
+#assurances {
+  width: 80vw;
+  margin: auto;
+  margin-top: 5vh;
+  padding: 4vh 4vw;
+  color: $black;
+  text-align: center;
+
+  div {
+    display: inline-block;
+    margin: 2vw;
+    background: $white;
+    width: 18vw;
+    height: 5vw;
+    border-radius: 1vw;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    padding: auto;
+    transition: 0.3s all;
+  }
+
+  div:hover {
+    transition: 0.1s all;
+    background-color: $secondary-color;
+    color: $white;
+  }
+}

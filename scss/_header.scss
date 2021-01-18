@@ -1,0 +1,34 @@
+header {
+  width: 100vw;
+  height: auto;
+  position: sticky;
+  top: 0;
+  border-bottom: 0.3vw $black solid;
+  background: $white;
+
+  div,
+  nav {
+    display: inline-block;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+    a {
+      color: $black;
+      text-decoration: none;
+      font-size: 1.5vw;
+      margin: 2vw;
+      font-weight: bold;
+      transition: 0.3s all;
+    }
+
+    a:hover {
+      color: $secondary-color;
+      transition: 0.1s all;
+      text-decoration: underline;
+    }
+  }
+
+  nav {
+    float: right;
+  }
+}
