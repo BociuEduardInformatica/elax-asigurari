@@ -1,0 +1,26 @@
+footer {
+  width: 100vw;
+  height: auto;
+  position: sticky;
+  top: 0;
+  border-top: 0.3vw $white solid;
+  background: $black;
+  padding: 2vw;
+
+  p {
+    color: $main-color;
+
+    a {
+      text-decoration: none;
+      font-size: 1.5vw;
+      font-weight: bold;
+      transition: 0.3s all;
+    }
+
+    a:hover {
+      color: $secondary-color;
+      transition: 0.1s all;
+      text-decoration: underline;
+    }
+  }
+}

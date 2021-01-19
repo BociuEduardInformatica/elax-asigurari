@@ -16,10 +16,15 @@ header div a,
 header nav a {
   color: #474444;
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 2vw;
   margin: 2vw;
   font-weight: bold;
   transition: 0.3s all;
+}
+header div a img,
+header nav a img {
+  height: 6vw;
+  width: auto;
 }
 header div a:hover,
 header nav a:hover {
@@ -29,6 +34,7 @@ header nav a:hover {
 }
 header nav {
   float: right;
+  padding-top: 2.5vh;
 }
 
 #assurances {
@@ -42,20 +48,106 @@ header nav {
 #assurances div {
   display: inline-block;
   margin: 2vw;
-  background: #ffffff;
-  width: 18vw;
-  height: 5vw;
+  background-color: #ffffff;
+  width: 10vw;
+  height: 10vw;
   border-radius: 1vw;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: bold;
   padding: auto;
-  transition: 0.3s all;
+  transition: 0.6s all;
+}
+#assurances .rca {
+  background-image: url("../img/RCAbtn.png");
+  background-attachment: contain;
+  background-repeat: no-repeat;
+  padding: 2vw 0;
+  background-size: cover;
+}
+#assurances .rca p {
+  opacity: 0;
+}
+#assurances .casco {
+  background-image: url("../img/cascobtn.png");
+  background-attachment: contain;
+  background-repeat: no-repeat;
+  padding: 2vw 0;
+  background-size: cover;
+}
+#assurances .casco p {
+  opacity: 0;
+}
+#assurances .home {
+  background-image: url("../img/homebtn.png");
+  background-attachment: contain;
+  background-repeat: no-repeat;
+  padding: 2vw 0;
+  background-size: cover;
+}
+#assurances .home p {
+  opacity: 0;
+}
+#assurances .life {
+  background-image: url("../img/lifebtn.png");
+  background-attachment: contain;
+  background-repeat: no-repeat;
+  padding: 2vw 0;
+  background-size: cover;
+}
+#assurances .life p {
+  opacity: 0;
+}
+#assurances .health {
+  background-image: url("../img/healthbtn.png");
+  background-attachment: contain;
+  background-repeat: no-repeat;
+  padding: 2vw 0;
+  background-size: cover;
+}
+#assurances .health p {
+  opacity: 0;
+}
+#assurances .travel {
+  background-image: url("../img/travelbtn.png");
+  background-attachment: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2vw 0;
+}
+#assurances .travel p {
+  opacity: 0;
+}
+#assurances .cmr {
+  background-image: url("../img/cmrbtn.png");
+  background-attachment: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2vw 0;
+}
+#assurances .cmr p {
+  opacity: 0;
+}
+#assurances .malpraxis {
+  background-image: url("../img/malpraxisbtn.png");
+  background-attachment: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2vw 0;
+}
+#assurances .malpraxis p {
+  opacity: 0;
 }
 #assurances div:hover {
   transition: 0.1s all;
   background-color: #c0b0b1;
   color: #ffffff;
+  background-image: none;
+  box-shadow: 1vh 1vw 1vh 1vh #474444;
+}
+#assurances div:hover p {
+  text-decoration: underline;
+  opacity: 1;
 }
 
 .banner {
@@ -64,7 +156,7 @@ header nav {
   height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 .banner h1 {
   font-size: 6vw;
@@ -81,6 +173,30 @@ header nav {
   border: 0.3vh #c0b0b1 solid;
   border-radius: 2vw;
   color: #474444;
+}
+
+footer {
+  width: 100vw;
+  height: auto;
+  position: sticky;
+  top: 0;
+  border-top: 0.3vw #ffffff solid;
+  background: #474444;
+  padding: 2vw;
+}
+footer p {
+  color: #e0ced0;
+}
+footer p a {
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-weight: bold;
+  transition: 0.3s all;
+}
+footer p a:hover {
+  color: #c0b0b1;
+  transition: 0.1s all;
+  text-decoration: underline;
 }
 
 body {
