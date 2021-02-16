@@ -17,20 +17,24 @@ header nav a {
   color: #474444;
   text-decoration: none;
   font-size: 2vw;
-  margin: 2vw;
+  margin: 1.25vw 2vw;
   font-weight: bold;
   transition: 0.3s all;
 }
 header div a img,
 header nav a img {
+  display: inline-block;
   height: 6vw;
   width: auto;
+}
+header div a p,
+header nav a p {
+  display: inline-block;
 }
 header div a:hover,
 header nav a:hover {
   color: #c0b0b1;
   transition: 0.1s all;
-  text-decoration: underline;
 }
 header nav {
   float: right;
@@ -78,14 +82,24 @@ header nav {
 #assurances .casco p {
   opacity: 0;
 }
-#assurances .home {
-  background-image: url("../img/homebtn.png");
+#assurances .home-pad {
+  background-image: url("../img/home-padbtn.png");
   background-attachment: contain;
   background-repeat: no-repeat;
   padding: 2vw 0;
   background-size: cover;
 }
-#assurances .home p {
+#assurances .home-pad p {
+  opacity: 0;
+}
+#assurances .home-fac {
+  background-image: url("../img/home-facbtn.png");
+  background-attachment: contain;
+  background-repeat: no-repeat;
+  padding: 2vw 0;
+  background-size: cover;
+}
+#assurances .home-fac p {
   opacity: 0;
 }
 #assurances .life {
@@ -120,7 +134,7 @@ header nav {
 }
 #assurances .cmr {
   background-image: url("../img/cmrbtn.png");
-  background-attachment: contain;
+  background-attachment: local;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2vw 0;
@@ -151,23 +165,24 @@ header nav {
 }
 
 .banner {
-  background: url("../img/banner.png");
+  background-image: url("../img/banner.jpeg");
   width: 100vw;
   height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.banner h1 {
-  font-size: 6vw;
-  margin-top: 7vh;
-  margin-left: 3.5vw;
+
+h1 {
+  font-size: 4vw;
+  margin: 3vw;
+  color: #474444;
 }
 
 #about {
   width: 80vw;
   margin: auto;
-  margin-top: 5vh;
+  margin-top: 25vh;
   background: #ffffff;
   padding: 4vh 4vw;
   border: 0.3vh #c0b0b1 solid;
@@ -199,12 +214,23 @@ footer p a:hover {
   text-decoration: underline;
 }
 
+h1 {
+  font-size: 8vw;
+}
+h1 img {
+  height: 12vw;
+}
+
 body {
   background: #e0ced0;
 }
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+h2 {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

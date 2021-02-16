@@ -4,6 +4,7 @@
 @import './banner';
 @import './about';
 @import './footer';
+@import './h1';
 
 body {
   background: $main-color;
@@ -11,4 +12,8 @@ body {
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+h2 {
+  text-decoration: underline;
 }

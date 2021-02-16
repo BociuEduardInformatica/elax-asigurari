@@ -42,8 +42,19 @@
     }
   }
 
-  .home {
-    background-image: url('../img/homebtn.png');
+  .home-pad {
+    background-image: url('../img/home-padbtn.png');
+    background-attachment: contain;
+    background-repeat: no-repeat;
+    padding: 2vw 0;
+    background-size: cover;
+    p {
+      opacity: 0;
+    }
+  }
+
+  .home-fac {
+    background-image: url('../img/home-facbtn.png');
     background-attachment: contain;
     background-repeat: no-repeat;
     padding: 2vw 0;
@@ -88,7 +99,7 @@
 
   .cmr {
     background-image: url('../img/cmrbtn.png');
-    background-attachment: contain;
+    background-attachment: local;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2vw 0;
